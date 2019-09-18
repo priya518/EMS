@@ -24,8 +24,9 @@ class ViewController: UIViewController {
         
         if (txtemail.text == "abc@gmail.com"),(txtpassword.text == "fairy") {
             let alertview = UIAlertController(title: "Correct Email Id", message: "Log In", preferredStyle: .alert)
-            alertview.addAction(UIAlertAction(title: "OK", style: .cancel, handler: { _ in
-            }))
+//            alertview.addAction(UIAlertAction(title: "OK", style: .cancel, handler: { _ in
+//            }))
+            alertview.addAction(UIAlertAction(title: "ok", style: .cancel, handler: {_ in}))
             
             self.present(alertview, animated: true, completion: nil)
         }
